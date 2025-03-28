@@ -7,11 +7,11 @@ let clickCount = 0; // 记录拒绝按钮点击次数
 
 // 拒绝按钮的渐进式提示文本
 const noTexts = [
-  "？你认真的吗...", 
-  "要不再想想？",
-  "不许选这个！",
+  "真的不喜欢我了吗...", 
+  "如果这是您所想的话...",
+  "您可以再考虑一下吗？",
   "我会很伤心...",
-  "不行:("
+  "不行"
 ];
 
 // 拒绝按钮点击事件（核心交互逻辑）
@@ -47,7 +47,7 @@ noButton.addEventListener('click', () => {
 yesButton.addEventListener("click",function(){
     document.body.innerHTML=`
 	<div class="yes-screen">
-		<h1 class="yes-text">!!喜欢你>< </h1>
+		<h1 class="yes-text">您也是我最爱的人>< </h1>
 		<img src="images/hug.png" alt="拥抱" class="yes-image">
 	</div>
     `;
