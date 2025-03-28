@@ -58,3 +58,9 @@ button {
   align-items: center;
   justify-content: center;
 }
+
+/* 新增样式，限制 .yes-image 类的图片大小 */
+.yes-image {
+    width: 200px; /* 可以根据需要调整宽度 */
+    height: auto; /* 保持图片的宽高比 */
+}
